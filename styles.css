@@ -1,0 +1,115 @@
+/* Reset default margin and padding */
+body, h1, p, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  }
+  
+  /* Sticky Navbar */
+  .sticky-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Replace with your desired background color */
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust as per your logo size */
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9; /* Replace with your desired background color */
+  }
+  
+  .intro-content {
+    max-width: 50%; /* Adjust width as per your design */
+  }
+  
+  .intro-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .intro-content p {
+    font-size: 18px;
+    color: #333333; /* Replace with your desired text color */
+    margin-bottom: 30px;
+  }
+  
+  .intro-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Replace with your desired button color */
+    color: #ffffff; /* Replace with your desired button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .jeff-bezos-image img {
+    max-width: 50%; /* Adjust width as per your design */
+  }
+  
+  /* Contact Us Section */
+  .contact-us-section {
+    padding: 50px;
+  }
+  
+  .contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Replace with your desired border color */
+    border-radius: 5px;
+    outline: none; /* Remove default focus outline */
+  }
+  
+  .contact-form input:focus {
+    border-color: #007bff; /* Change border color on focus if needed */
+  }
+  
+  /* Table Section */
+  .table-section {
+    padding: 50px;
+  }
+  
+  /* Add specific table styles based on your design */
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ccc; /* Replace with your desired border color */
+    padding: 10px;
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+  
